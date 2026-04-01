@@ -1,0 +1,1124 @@
+2026-04-01 09:01:17 [INFO] c.h.s.SpringAutomobileCsApplication - Starting SpringAutomobileCsApplication using Java 20.0.1 with PID 18772 (C:\Users\suwas\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Spring_Automobile_cs\target\classes started by suwas in C:\Users\suwas\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Spring_Automobile_cs)
+2026-04-01 09:01:17 [DEBUG] c.h.s.SpringAutomobileCsApplication - Running with Spring Boot v3.5.11, Spring v6.2.16
+2026-04-01 09:01:17 [INFO] c.h.s.SpringAutomobileCsApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-01 09:01:20 [INFO] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-01 09:01:20 [INFO] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 152 ms. Found 8 JPA repository interfaces.
+2026-04-01 09:01:21 [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-01 09:01:21 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-01 09:01:21 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-04-01 09:01:21 [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-01 09:01:21 [INFO] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3202 ms
+2026-04-01 09:01:21 [DEBUG] c.h.s.s.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-04-01 09:01:21 [INFO] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-01 09:01:21 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-04-01 09:01:21 [INFO] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-01 09:01:22 [INFO] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-01 09:01:22 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-01 09:01:23 [INFO] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e9a836
+2026-04-01 09:01:23 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-01 09:01:23 [WARN] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-01 09:01:23 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.33
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-01 09:01:25 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-01 09:01:25 [INFO] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-01 09:01:26 [INFO] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-01 09:01:26 [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-01 09:01:26 [WARN] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: e3454fd9-3d02-40c2-a2fe-381f1db80868
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-01 09:01:26 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-01 09:01:27 [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-01 09:01:27 [INFO] c.h.s.SpringAutomobileCsApplication - Started SpringAutomobileCsApplication in 10.421 seconds (process running for 11.332)
+2026-04-01 09:41:30 [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-01 09:41:30 [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-01 09:41:30 [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 204 ms
+2026-04-01 09:42:09 [INFO] c.h.s.s.i.UserServiceImpl - User login attempt with email: suwasthika.kv@gmail.com
+2026-04-01 09:42:09 [INFO] c.h.s.s.i.UserServiceImpl - Login successful for user: suwasthika.kv@gmail.com
+2026-04-01 09:42:10 [INFO] c.h.s.s.i.UserServiceImpl - Fetching user by email: suwasthika.kv@gmail.com
+2026-04-01 09:42:10 [INFO] c.h.s.s.i.PolicyDocumentServiceImpl - Fetching documents for user id: 13
+2026-04-01 09:42:10 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching proposals for user id: 13
+2026-04-01 09:42:10 [INFO] c.h.s.s.i.UserServiceImpl - Fetching user with id: 13
+2026-04-01 09:42:10 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching claims for user id 13
+2026-04-01 09:42:10 [INFO] c.h.s.s.i.PolicyDocumentServiceImpl - Fetching documents for user id: 13
+2026-04-01 09:42:10 [INFO] c.h.s.s.i.UserServiceImpl - Fetching user with id: 13
+2026-04-01 09:42:10 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching proposals for user id: 13
+2026-04-01 09:42:10 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching claims for user id 13
+2026-04-01 09:43:35 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 09:43:35 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 09:45:08 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching proposals for user id: 13
+2026-04-01 09:45:08 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching claims for user id 13
+2026-04-01 09:45:08 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching proposals for user id: 13
+2026-04-01 09:45:08 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching claims for user id 13
+2026-04-01 09:48:21 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching proposals for user id: 13
+2026-04-01 09:48:21 [INFO] c.h.s.s.i.UserServiceImpl - Fetching user with id: 13
+2026-04-01 09:48:21 [INFO] c.h.s.s.i.PolicyDocumentServiceImpl - Fetching documents for user id: 13
+2026-04-01 09:48:21 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching claims for user id 13
+2026-04-01 09:48:21 [INFO] c.h.s.s.i.PolicyDocumentServiceImpl - Fetching documents for user id: 13
+2026-04-01 09:48:21 [INFO] c.h.s.s.i.UserServiceImpl - Fetching user with id: 13
+2026-04-01 09:48:21 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching proposals for user id: 13
+2026-04-01 09:48:21 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching claims for user id 13
+2026-04-01 09:48:25 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 09:48:25 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 09:48:27 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching proposals for user id: 13
+2026-04-01 09:48:27 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching claims for user id 13
+2026-04-01 09:48:27 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching proposals for user id: 13
+2026-04-01 09:48:27 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching claims for user id 13
+2026-04-01 09:48:28 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 09:48:28 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 09:49:51 [INFO] c.h.s.s.i.UserServiceImpl - User login attempt with email: ramesh@autoshield.com
+2026-04-01 09:49:51 [INFO] c.h.s.s.i.UserServiceImpl - Login successful for user: ramesh@autoshield.com
+2026-04-01 09:49:51 [INFO] c.h.s.s.i.UserServiceImpl - Fetching user by email: ramesh@autoshield.com
+2026-04-01 09:49:51 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 09:49:51 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 09:49:51 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 09:49:51 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 09:49:51 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 09:49:51 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 09:49:51 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 09:49:51 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 09:51:07 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 09:51:07 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 09:54:50 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 09:54:50 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 09:57:13 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 09:57:13 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 09:59:12 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 09:59:12 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 09:59:12 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 09:59:12 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 09:59:12 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 09:59:12 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 09:59:12 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 09:59:12 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 10:01:35 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 10:01:35 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 10:02:05 [INFO] c.h.s.s.i.UserServiceImpl - User login attempt with email: suwasthika.kv@gmail.com
+2026-04-01 10:02:05 [INFO] c.h.s.s.i.UserServiceImpl - Login successful for user: suwasthika.kv@gmail.com
+2026-04-01 10:02:05 [INFO] c.h.s.s.i.UserServiceImpl - Fetching user by email: suwasthika.kv@gmail.com
+2026-04-01 10:02:05 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching proposals for user id: 13
+2026-04-01 10:02:05 [INFO] c.h.s.s.i.PolicyDocumentServiceImpl - Fetching documents for user id: 13
+2026-04-01 10:02:05 [INFO] c.h.s.s.i.UserServiceImpl - Fetching user with id: 13
+2026-04-01 10:02:05 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching claims for user id 13
+2026-04-01 10:02:05 [INFO] c.h.s.s.i.PolicyDocumentServiceImpl - Fetching documents for user id: 13
+2026-04-01 10:02:05 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching proposals for user id: 13
+2026-04-01 10:02:05 [INFO] c.h.s.s.i.UserServiceImpl - Fetching user with id: 13
+2026-04-01 10:02:05 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching claims for user id 13
+2026-04-01 10:02:13 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching proposal with id: 19
+2026-04-01 10:02:13 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching proposal with id: 19
+2026-04-01 10:03:11 [INFO] c.h.s.s.i.PolicyDocumentServiceImpl - Fetching documents for user id: 13
+2026-04-01 10:03:11 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching proposals for user id: 13
+2026-04-01 10:03:11 [INFO] c.h.s.s.i.UserServiceImpl - Fetching user with id: 13
+2026-04-01 10:03:11 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching claims for user id 13
+2026-04-01 10:03:11 [INFO] c.h.s.s.i.PolicyDocumentServiceImpl - Fetching documents for user id: 13
+2026-04-01 10:03:11 [INFO] c.h.s.s.i.UserServiceImpl - Fetching user with id: 13
+2026-04-01 10:03:11 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching proposals for user id: 13
+2026-04-01 10:03:11 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching claims for user id 13
+2026-04-01 10:03:14 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching proposal with id: 19
+2026-04-01 10:03:14 [INFO] c.h.s.s.i.PolicyDocumentServiceImpl - Fetching document for proposal id: 19
+2026-04-01 10:03:14 [INFO] c.h.s.s.i.OfficerActionServiceImpl - Fetching officer actions for proposal id: 19
+2026-04-01 10:03:14 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching payment for proposal ID: 19
+2026-04-01 10:03:14 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching proposal with id: 19
+2026-04-01 10:03:14 [INFO] c.h.s.s.i.OfficerActionServiceImpl - Fetching officer actions for proposal id: 19
+2026-04-01 10:03:14 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching payment for proposal ID: 19
+2026-04-01 10:03:14 [INFO] c.h.s.s.i.PolicyDocumentServiceImpl - Fetching document for proposal id: 19
+2026-04-01 10:04:50 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching proposals for user id: 13
+2026-04-01 10:04:50 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching claims for user id 13
+2026-04-01 10:04:50 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching proposals for user id: 13
+2026-04-01 10:04:50 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching claims for user id 13
+2026-04-01 10:06:42 [INFO] c.h.s.s.i.ClaimServiceImpl - Filing claim, proposalId: 19
+2026-04-01 10:06:42 [INFO] c.h.s.s.i.ClaimServiceImpl - Claim saved with proposalId: 19
+2026-04-01 10:06:42 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching claims for user id 13
+2026-04-01 10:07:03 [INFO] c.h.s.s.i.UserServiceImpl - User login attempt with email: ramesh@autoshield.com
+2026-04-01 10:07:03 [INFO] c.h.s.s.i.UserServiceImpl - Login successful for user: ramesh@autoshield.com
+2026-04-01 10:07:03 [INFO] c.h.s.s.i.UserServiceImpl - Fetching user by email: ramesh@autoshield.com
+2026-04-01 10:07:03 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 10:07:03 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 10:07:03 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 10:07:03 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 10:07:03 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 10:07:03 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 10:07:03 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 10:07:03 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 10:07:22 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 10:07:22 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 10:08:20 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 10:08:20 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 10:08:22 [INFO] c.h.s.s.i.OfficerActionServiceImpl - Fetching officer actions for proposal id: 1
+2026-04-01 11:12:26 [INFO] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-04-01 11:12:26 [INFO] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-01 11:12:26 [INFO] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-01 11:12:26 [INFO] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-01 11:12:26 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-04-01 11:12:26 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-04-01 11:12:29 [INFO] c.h.s.SpringAutomobileCsApplication - Starting SpringAutomobileCsApplication using Java 20.0.1 with PID 12656 (C:\Users\suwas\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Spring_Automobile_cs\target\classes started by suwas in C:\Users\suwas\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Spring_Automobile_cs)
+2026-04-01 11:12:29 [DEBUG] c.h.s.SpringAutomobileCsApplication - Running with Spring Boot v3.5.11, Spring v6.2.16
+2026-04-01 11:12:29 [INFO] c.h.s.SpringAutomobileCsApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-01 11:12:30 [INFO] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-01 11:12:30 [INFO] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 85 ms. Found 8 JPA repository interfaces.
+2026-04-01 11:12:31 [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-01 11:12:31 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-01 11:12:31 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-04-01 11:12:31 [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-01 11:12:31 [INFO] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1747 ms
+2026-04-01 11:12:31 [DEBUG] c.h.s.s.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-04-01 11:12:31 [INFO] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-01 11:12:31 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-04-01 11:12:31 [INFO] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-01 11:12:31 [INFO] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-01 11:12:31 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-01 11:12:32 [INFO] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51fb5fe6
+2026-04-01 11:12:32 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-01 11:12:32 [WARN] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-01 11:12:32 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.33
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-01 11:12:33 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-01 11:12:34 [INFO] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-01 11:12:34 [INFO] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-01 11:12:34 [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-01 11:12:34 [WARN] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 459c7c72-19d3-4a1f-9219-68cb5ea1638a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-01 11:12:34 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-01 11:12:35 [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-01 11:12:35 [INFO] c.h.s.SpringAutomobileCsApplication - Started SpringAutomobileCsApplication in 6.613 seconds (process running for 7.421)
+2026-04-01 11:13:21 [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-01 11:13:21 [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-01 11:13:21 [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-04-01 11:32:04 [INFO] c.h.s.s.i.UserServiceImpl - User login attempt with email: ramesh@autoshield.com
+2026-04-01 11:32:04 [INFO] c.h.s.s.i.UserServiceImpl - Login successful for user: ramesh@autoshield.com
+2026-04-01 11:32:05 [INFO] c.h.s.s.i.UserServiceImpl - Fetching user by email: ramesh@autoshield.com
+2026-04-01 11:32:05 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 11:32:05 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 11:32:05 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 11:32:05 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 11:32:05 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 11:32:05 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 11:32:05 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 11:32:05 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:04:44 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:04:44 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:04:44 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:04:45 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:04:45 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:04:45 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:04:46 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:04:46 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:04:47 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:04:47 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:04:48 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:04:48 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:04:48 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:04:48 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:04:48 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:04:48 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:04:48 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:04:48 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:04:49 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:04:49 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:04:49 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:04:49 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:04:49 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:04:49 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:04:49 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:04:49 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:04:49 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:04:49 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:04:50 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:04:50 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:04:51 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:04:51 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:04:52 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:04:52 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:04:53 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:04:53 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:04:56 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:04:56 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:04:56 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:04:56 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:04:56 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:04:56 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:04:56 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:04:56 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:04:56 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:04:56 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:04:57 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:04:57 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:04:58 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:04:58 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:04:59 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:04:59 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:00 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:00 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:01 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:01 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:01 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:01 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:01 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:01 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:01 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:01 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:01 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:01 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:02 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:02 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:04 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:04 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:04 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:04 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:04 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:04 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:04 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:04 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:05 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:05 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:06 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:06 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:07 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:07 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:08 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:08 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:09 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:09 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:09 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:09 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:09 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:09 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:09 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:09 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:09 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:09 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:11 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:11 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:11 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:11 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:11 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:11 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:11 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:11 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:11 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:11 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:13 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:13 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:14 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:14 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:16 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:16 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:17 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:17 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:17 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:18 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:18 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:18 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:18 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:18 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:18 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:18 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:18 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:18 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:19 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:19 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:20 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:20 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:20 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:20 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:20 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:20 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:20 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:20 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:20 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:20 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:21 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:21 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:22 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:22 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:22 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:22 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:23 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:23 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:24 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:24 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:24 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:24 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:24 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:24 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:24 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:24 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:24 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:24 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:29 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:29 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:29 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:29 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:29 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:29 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:29 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:29 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:30 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:30 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:31 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:32 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:33 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:33 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:33 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:34 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:34 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:34 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:35 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:35 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:35 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:35 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:35 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:35 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:35 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:35 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:36 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:36 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:40 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:40 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:40 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:40 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:40 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:40 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:40 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:40 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:41 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:41 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:42 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:42 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:44 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:44 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:45 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:45 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:46 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:46 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:47 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:47 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:47 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:47 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:47 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:47 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:47 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:47 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:49 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:49 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:50 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:50 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:51 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:51 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:51 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:51 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:52 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:52 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:53 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:53 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:53 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:53 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:53 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:53 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:53 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:53 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:54 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:54 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:54 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:54 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:54 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:54 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:54 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:54 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:54 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:54 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:55 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:55 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:56 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:56 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:57 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:57 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:57 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:57 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:58 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:58 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:59 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:59 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:59 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:59 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:59 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:05:59 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:05:59 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:05:59 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:05:59 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:05:59 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:00 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:00 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:00 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:00 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:00 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:00 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:00 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:00 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:01 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:01 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:03 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:03 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:03 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:03 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:04 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:04 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:05 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:05 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:06 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:06 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:06 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:06 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:06 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:06 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:06 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:06 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:06 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:06 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:07 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:07 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:07 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:07 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:07 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:07 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:07 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:07 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:08 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:08 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:08 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:09 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:09 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:09 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:10 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:10 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:10 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:10 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:10 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:10 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:10 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:10 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:10 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:10 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:12 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:12 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:13 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:13 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:13 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:13 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:13 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:13 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:13 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:13 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:13 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:13 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:14 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:14 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:15 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:15 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:16 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:16 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:17 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:17 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:17 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:17 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:17 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:17 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:17 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:17 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:17 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:17 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:18 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:18 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:20 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:20 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:20 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:20 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:20 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:20 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:20 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:20 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:20 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:20 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:21 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:21 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:22 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:22 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:23 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:23 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:24 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:24 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:25 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:25 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:25 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:25 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:25 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:25 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:25 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:25 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:26 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:26 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:27 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:27 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:27 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:27 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:27 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:27 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:27 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:27 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:28 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:28 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:29 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:29 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:31 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:31 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:31 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:31 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:32 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:32 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:33 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:33 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:33 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:33 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:33 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:33 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:33 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:33 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:34 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:34 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:35 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:35 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:35 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:35 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:35 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:35 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:35 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:35 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:36 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:36 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:37 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:37 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:37 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:37 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:38 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:38 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:39 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:39 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:40 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:40 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:40 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:40 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:40 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:40 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:40 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:40 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:40 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:40 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:41 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:41 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:41 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:41 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:41 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:41 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:41 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:41 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:42 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:42 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:43 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:43 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:44 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:44 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:44 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:44 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:45 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:45 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:45 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:45 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:45 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:45 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:45 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:45 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:46 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:46 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:46 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:46 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:46 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:46 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:46 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:46 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:46 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:46 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:47 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:47 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:48 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:48 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:48 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:48 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:50 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:50 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:51 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:51 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:51 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:51 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:51 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:51 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:51 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:51 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:51 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:51 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:52 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:52 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:53 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:53 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:53 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:53 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:53 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:53 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:53 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:53 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:54 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:54 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:54 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:54 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:55 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:55 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:56 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:56 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:57 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:57 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:57 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:57 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:57 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:57 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:57 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:57 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:58 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:58 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:06:58 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:58 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:58 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:58 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:58 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:06:58 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:06:58 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:58 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:06:59 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:06:59 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:07:00 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:07:00 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:07:00 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:07:00 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:07:01 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:07:01 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:07:02 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:07:02 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:07:03 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:07:03 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:07:03 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:07:03 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:07:03 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:07:03 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:07:03 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:07:03 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:07:03 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:07:03 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:07:04 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:07:04 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:07:04 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:07:04 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:07:04 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:07:04 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:07:04 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:07:04 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:07:05 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:07:05 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:07:06 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:07:06 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:07:07 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:07:07 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:07:14 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:07:14 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:07:18 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:07:18 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:07:18 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:07:18 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:07:18 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:07:18 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:07:18 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:07:18 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:07:19 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:07:19 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:07:20 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:07:20 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:07:21 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:07:21 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:07:21 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:07:21 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:07:21 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:07:21 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:07:21 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:07:21 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:07:21 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:07:21 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:07:23 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:07:23 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:07:24 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:07:24 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:07:24 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:07:24 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:07:24 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:07:24 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:07:24 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:07:24 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:31 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:31 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:32 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:11:32 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:11:33 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:11:33 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:11:34 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:11:34 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:11:35 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:35 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:42 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:42 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:11:42 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:11:42 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:11:42 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:11:42 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:11:42 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:42 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:11:43 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:11:43 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:11:44 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:44 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:11:44 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:11:44 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:11:44 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:11:44 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:11:44 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:11:44 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:45 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:45 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:49 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:11:49 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:11:50 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:50 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:51 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:51 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:11:51 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:11:51 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:11:51 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:11:51 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:11:51 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:11:51 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:53 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:53 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:54 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:11:54 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:11:55 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:11:55 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:11:56 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:11:56 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:11:57 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:57 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:58 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:58 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:11:58 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:11:58 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:11:58 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:11:58 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:11:58 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:11:58 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:11:58 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:11:58 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:00 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:00 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:02 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:02 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:03 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:03 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:04 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:04 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:05 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:05 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:06 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:06 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:06 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:06 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:06 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:06 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:06 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:06 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:06 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:06 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:07 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:07 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:07 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:07 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:07 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:07 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:07 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:07 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:08 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:08 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:09 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:09 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:10 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:10 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:11 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:11 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:12 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:12 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:13 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:13 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:13 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:13 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:13 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:13 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:13 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:13 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:13 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:13 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:14 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:14 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:14 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:14 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:14 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:14 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:14 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:14 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:15 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:15 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:15 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:16 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:16 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:16 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:17 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:17 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:19 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:19 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:20 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:20 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:20 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:20 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:20 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:20 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:20 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:20 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:20 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:20 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:21 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:21 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:21 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:21 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:21 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:21 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:21 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:21 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:22 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:22 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:23 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:23 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:23 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:23 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:25 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:25 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:25 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:26 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:26 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:26 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:26 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:26 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:26 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:26 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:26 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:26 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:27 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:28 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:31 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:31 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:32 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:32 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:34 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:34 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:35 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:35 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:35 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:35 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:35 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:35 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:35 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:35 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:38 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:38 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:40 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:40 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:41 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:41 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:42 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:42 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:43 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:43 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:44 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:44 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:44 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:44 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:44 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:44 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:44 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:44 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:45 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:45 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:45 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:45 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:45 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:45 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:45 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:45 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:45 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:45 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:47 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:47 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:51 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:51 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:12:52 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:52 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:53 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:53 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:59 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:12:59 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:59 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:59 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:59 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:12:59 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:12:59 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:12:59 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:13:03 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:13:03 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:13:04 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:13:04 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:13:07 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:13:07 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:13:09 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:13:09 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:13:09 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:13:09 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:13:10 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:13:10 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:13:10 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:13:10 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:13:10 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:13:10 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:13:10 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:13:10 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:13:11 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:13:11 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:13:12 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:13:12 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:13:12 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:13:12 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:13:12 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:13:12 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:13:12 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:13:12 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:13:13 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:13:13 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:13:14 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:13:14 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:13:15 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:13:15 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:13:16 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:13:16 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:13:17 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:13:17 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:13:18 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:13:18 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:13:18 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:13:18 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:13:18 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:13:18 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:13:18 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:13:18 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:13:19 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:13:19 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:13:20 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:13:20 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:13:20 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:13:20 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:13:20 [INFO] c.h.s.s.i.UserServiceImpl - Fetching all users
+2026-04-01 12:13:20 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:13:20 [INFO] c.h.s.s.i.PremiumPaymentServiceImpl - Fetching all premium payments
+2026-04-01 12:13:20 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:13:22 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:13:22 [INFO] c.h.s.s.i.PolicyProposalServiceImpl - Fetching all policy proposals
+2026-04-01 12:13:23 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:13:23 [INFO] c.h.s.s.i.ClaimServiceImpl - Fetching all claims
+2026-04-01 12:13:24 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 12:13:24 [INFO] c.h.s.s.i.InsurancePolicyServiceImpl - Fetching all insurance policies
+2026-04-01 14:14:28 [INFO] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-04-01 14:14:28 [INFO] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-01 14:14:28 [INFO] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-01 14:14:28 [INFO] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-01 14:14:28 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-04-01 14:14:28 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-04-01 15:31:51 [INFO] c.h.s.SpringAutomobileCsApplication - Starting SpringAutomobileCsApplication using Java 20.0.1 with PID 23612 (C:\Users\suwas\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Spring_Automobile_cs\target\classes started by suwas in C:\Users\suwas\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Spring_Automobile_cs)
+2026-04-01 15:31:51 [DEBUG] c.h.s.SpringAutomobileCsApplication - Running with Spring Boot v3.5.11, Spring v6.2.16
+2026-04-01 15:31:51 [INFO] c.h.s.SpringAutomobileCsApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-01 15:31:52 [INFO] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-01 15:31:52 [INFO] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 97 ms. Found 8 JPA repository interfaces.
+2026-04-01 15:31:52 [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-01 15:31:52 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-01 15:31:52 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-04-01 15:31:52 [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-01 15:31:52 [INFO] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1748 ms
+2026-04-01 15:31:53 [DEBUG] c.h.s.s.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-04-01 15:31:53 [INFO] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-01 15:31:53 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-04-01 15:31:53 [INFO] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-04-01 15:31:53 [INFO] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-01 15:31:53 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-04-01 15:31:54 [INFO] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72585e83
+2026-04-01 15:31:54 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-04-01 15:31:54 [WARN] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-01 15:31:54 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.33
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-01 15:31:55 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-01 15:31:55 [INFO] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-01 15:31:55 [INFO] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-01 15:31:56 [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-01 15:31:56 [WARN] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c8d9f94b-d020-4ff5-88cd-11e2e46dab61
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-04-01 15:31:56 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-01 15:31:56 [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-01 15:31:56 [INFO] c.h.s.SpringAutomobileCsApplication - Started SpringAutomobileCsApplication in 6.358 seconds (process running for 7.284)
+2026-04-01 15:32:38 [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-01 15:32:38 [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-01 15:32:38 [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms

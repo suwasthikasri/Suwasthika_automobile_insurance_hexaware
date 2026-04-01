@@ -1,0 +1,45 @@
+2026-03-07 16:53:46 [INFO] c.h.s.SpringAutomobileCsApplication - Starting SpringAutomobileCsApplication using Java 20.0.1 with PID 40484 (C:\Users\suwas\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Spring_Automobile_cs\target\classes started by suwas in C:\Users\suwas\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Spring_Automobile_cs)
+2026-03-07 16:53:46 [DEBUG] c.h.s.SpringAutomobileCsApplication - Running with Spring Boot v3.5.11, Spring v6.2.16
+2026-03-07 16:53:46 [INFO] c.h.s.SpringAutomobileCsApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-07 16:53:47 [INFO] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-07 16:53:47 [INFO] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 8 JPA repository interfaces.
+2026-03-07 16:53:47 [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-07 16:53:47 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-07 16:53:47 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-07 16:53:47 [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-07 16:53:47 [INFO] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1186 ms
+2026-03-07 16:53:48 [INFO] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-07 16:53:48 [INFO] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-07 16:53:48 [INFO] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-07 16:53:48 [INFO] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-07 16:53:48 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-07 16:53:48 [INFO] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43d6262c
+2026-03-07 16:53:48 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-07 16:53:48 [WARN] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-07 16:53:48 [INFO] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.33
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-07 16:53:49 [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-07 16:53:49 [INFO] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-07 16:53:50 [INFO] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-07 16:53:50 [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-07 16:53:50 [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-07 16:53:50 [INFO] c.h.s.SpringAutomobileCsApplication - Started SpringAutomobileCsApplication in 4.2 seconds (process running for 4.719)
+2026-03-07 16:54:08 [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-07 16:54:08 [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-07 16:54:08 [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-03-07 16:54:08 [INFO] c.h.s.s.i.EmailServiceImpl - Sending premium reminder email for proposal id: 1
+2026-03-07 16:54:08 [INFO] c.h.s.util.EmailService - Sending email to customer@gmail.com
+2026-03-07 16:54:08 [INFO] c.h.s.s.i.EmailServiceImpl - Premium reminder email sent successfully for proposal id: 1
+2026-03-07 23:06:46 [WARN] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h18m27s254ms184µs500ns).
+2026-03-07 23:11:30 [INFO] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-03-07 23:11:30 [INFO] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-07 23:11:30 [INFO] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-07 23:11:30 [INFO] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-07 23:11:30 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-07 23:11:30 [INFO] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
